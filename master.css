@@ -7,11 +7,17 @@
 header{
   background-color: red;
   height: 200px;
+  margin-top: 2%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 aside{
   background-color: yellow;
   height: 50px;
+  margin-bottom: 1%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .clearfix::after{
@@ -21,41 +27,67 @@ aside{
 }
 
 .colonnasx{
+  display: inline-block;
+  position: relative;
   background-color: greenyellow;
-  height: 750px;
-  width: 20%;
+  height: 500px;
+  width: 15%;
   float: left;
+  margin-left: 10%;
+  margin-right: 5%;
 }
 
 .colonnacenter{
+  display: inline-block;
+  position: relative;
   background-color: green;
-  height: 750px;
-  width: 60%;
+  height: 320px;
+  width: 40%;
   float: left;
 }
 
-.colonnadx{
+.widgetdx1{
+  display: inline-block;
+  position: relative;
   background-color: lightblue;
-  height: 250px;
-  width: 20%;
+  height: 350px;
+  width: 15%;
   float: left;
+  margin-left: 5%;
+  margin-right: 10%;
+  margin-bottom: 4%;
 }
 
-.colonnadx2{
+.widgetdx2{
+  display: inline-block;
+  position: relative;
   background-color: blue;
-  height: 250px;
-  width: 20%;
+  height: 350px;
+  width: 15%;
   float: right;
+  margin-left: 5%;
+  margin-right: 10%;
+  margin-bottom: 4%;
 }
 
-.colonnadx3{
+/*quest'ultimo elemento non si dispone a dx sotto gli altri due,
+ovvero widget1 e widget2*/
+.widgetdx3{
+  display: inline-block;
+  position: relative;
   background-color: darkblue;
-  height: 250px;
-  width: 20%;
-  float: right;
+  height: 350px;
+  width: 15%;
+  float: left;
+  margin-left: 5%;
+  margin-right: 10%;
+  margin-bottom: 4%;
 }
 
 footer{
   background-color: gray;
   height: 200px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 4%;
 }
