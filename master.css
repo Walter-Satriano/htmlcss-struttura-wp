@@ -1,0 +1,42 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header{
+  background-color: red;
+  height: 200px;
+}
+
+aside{
+  background-color: yellow;
+  height: 50px;
+}
+
+.clearfix::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.colonnasx{
+  background-color: greenyellow;
+  height: 400px;
+  width: 20%;
+  float: left;
+}
+
+.colonnacenter{
+  background-color: green;
+  height: 300px;
+  width: 60%;
+  float: left;
+}
+
+.colonnadx{
+  background-color: greenyellow;
+  height: 400px;
+  width: 20%;
+  float: left;
+}
