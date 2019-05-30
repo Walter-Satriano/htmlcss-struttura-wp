@@ -22,21 +22,40 @@ aside{
 
 .colonnasx{
   background-color: greenyellow;
-  height: 400px;
+  height: 750px;
   width: 20%;
   float: left;
 }
 
 .colonnacenter{
   background-color: green;
-  height: 300px;
+  height: 750px;
   width: 60%;
   float: left;
 }
 
 .colonnadx{
-  background-color: greenyellow;
-  height: 400px;
+  background-color: lightblue;
+  height: 250px;
   width: 20%;
   float: left;
+}
+
+.colonnadx2{
+  background-color: blue;
+  height: 250px;
+  width: 20%;
+  float: right;
+}
+
+.colonnadx3{
+  background-color: darkblue;
+  height: 250px;
+  width: 20%;
+  float: right;
+}
+
+footer{
+  background-color: gray;
+  height: 200px;
 }
