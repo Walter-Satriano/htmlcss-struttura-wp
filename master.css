@@ -5,18 +5,20 @@
 }
 
 .container{
-  width: 80%;
+  width: 60%;
   margin: auto;
 }
 
 header{
   background-color: red;
   height: 200px;
+  margin-top: 3%;
 }
 
 nav{
   background-color: greenyellow;
   height: 50px;
+  margin-bottom: 2%;
 }
 
 .clearfix{
@@ -39,31 +41,38 @@ nav{
 .colonnacenter{
   background-color: green;
   height: 200px;
-  width: 50%;
+  width: 40%;
   float:left;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .colonnadx{
   width: 25%;
   float: left;
+  margin-bottom: 5%;
 }
 
 .widgetdx1{
   background-color: lightblue;
   height: 250px;
+  margin-bottom: 10%;
 }
 
 .widgetdx2{
   background-color: blue;
   height: 250px;
+  margin-bottom: 10%;
 }
 
 .widgetdx3{
   background-color: darkblue;
   height: 250px;
+  margin-bottom: 10%;
 }
 
 footer{
   background-color: gray;
   height: 200px;
+  margin-bottom: 5%;
 }
